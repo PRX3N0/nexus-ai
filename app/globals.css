@@ -145,7 +145,8 @@
     @apply border-border ring-0;
   }
   body {
-    @apply bg-background text-foreground;
+    background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 45%, #0ea5e9 100%);
+    color: var(--foreground);
     font-feature-settings: "ss01", "ss02", "cv01";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
